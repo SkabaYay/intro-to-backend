@@ -1,0 +1,28 @@
+{
+  "name": "intro-to-back-end-again",
+  "version": "1.0.0",
+  "description": "This project is for the tutorial of intro to backend.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkabaYay/intro-to-backend.git"
+  },
+  "keywords": [],
+  "author": "Hon",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/SkabaYay/intro-to-backend/issues"
+  },
+  "homepage": "https://github.com/SkabaYay/intro-to-backend#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.8.1"
+  }
+}
